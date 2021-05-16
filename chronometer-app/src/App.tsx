@@ -1,13 +1,6 @@
 import React from 'react';
+import Router from './routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Chronometer</h1>
-      </header>
-    </div>
-  );
-}
+const App = (): JSX.Element => <Router />;
 
 export default App;
